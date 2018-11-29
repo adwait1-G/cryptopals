@@ -13,7 +13,7 @@
 # Use it, play with it and learn from it!
 
 # Run like this:    $ chmod u+x fixed_xor.py
-#                   $ ./base64.py <encode / decode> <hex / raw / base64> InputFilename OutputFilename
+#                   $ ./fixed_xor.py InputFile1 InputFile2 OutputFile
 
 
 
