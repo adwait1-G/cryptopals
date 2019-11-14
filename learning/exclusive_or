@@ -1,0 +1,86 @@
+1. Topic: Exclusive Or
+2. Book being refered: crypto101
+
+
+Exclusive Or - XOR: It is a binary operator which is true when either the first input or the second is true, but not both. 
+
+
+Generally, there are 2 input bits for an XOR Gate. 
+
+We can look at it like this: 
+
+XOR is an encryption operation where one Input bit is Plaintext bit Pi and other Input Bit is the Key Ki. The Output / resulting bit is Ci. 
+
+Pi XOR Ki = Ci
+
+
+One time pads!
+
+1. It is called a one-time pad because it involves a sequence of random bits and the security of the scheme depends on the only that pad once. 
+
+The sequence is called a pad because it was originally recorded on a  physical paper pad. 
+
+
+Theoritically, it has the strongest possible gaurantee. If bits are truly random and therefore unpredictable by an attacker and the pad is used only once, the attacker learns nothing about the plaintext when they see a ciphertext. 
+
+
+If an attacker sees the ciphertext, we can prove that they will learn zero information about the plaintext without the key. This property is called perfect security. 
+
+Attacks on "one-time-pads" : 
+
+1. One-time-pad security guarantee only holds if it is used correctly. 
+2. The one-time pad should contain truly random data. 
+3. And that one-time pad can be used only once. 
+
+
+1. Reusing one-time pads: 
+
+Suppose an attacker gets 2 ciphertexts with the same one-time pad. The attacker can then XOR the 2 ciphertexts which is also the XOR of the 2 plaintexts. 
+
+The XOR will also contain quite a bit of information. 
+
+2. A new method!!
+
+Crib-dragging: 
+
+1. Crib-dragging is a process that uses small sequences that are expected to occur with high probability. 
+
+Those sequences are called "cribs". 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
